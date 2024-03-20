@@ -270,3 +270,32 @@ const AddProducts = () => {
 };
 
 export default AddProducts;
+
+//{allProducts
+//                 .filter((product) => {
+//                   if (
+//                     (selectedGroup === "all" ||
+//                       product.category === selectedGroup) &&
+//                     (searchProduct === "" ||
+//                       product.name
+//                         .toLowerCase()
+//                         .includes(searchProduct.toLowerCase()))
+//                   ) {
+//                     return true;
+//                   }
+//                   return false;
+//                 })
+//                 .map((product, index) => (
+//                   <div
+//                     className="flex gap-y-[10px] border-b flex-col md:flex-row md:justify-between w-full lg:items-center  cursor-pointer hover:bg-slate-200 rounded-md p-1"
+//                     key={index}
+//                   >
+//                     <img
+//                       className="w-[30px] h-[30px] rounded-full lg:w-[50px] lg:h-[50px]"
+//                       src={product.image}
+//                       alt="Product"
+//                     />
+//                     <p className="text-[12px] md:text-[15px]">
+//                       <span className="text-blue-600">ProductName-</span>{" "}
+//                       {product.name}
+//                     </p>
